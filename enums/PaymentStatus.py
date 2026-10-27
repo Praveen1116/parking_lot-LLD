@@ -11,6 +11,6 @@ public enum PaymentStatus {
 from enum import Enum
 
 class PaymentStatus(Enum):
-    PENDING="pending"
-    SUCCESS="success"
-    INVALID="invalid"
+    PENDING="PENDING"
+    SUCCESS="SUCCESS"
+    INVALID="INVALID"
